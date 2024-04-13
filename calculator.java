@@ -2,19 +2,19 @@ import java.util.Scanner;
 
 public class calculator {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner nani = new Scanner(System.in);
 
         double num1, num2, result;
         char operator;
 
         System.out.print("Enter first number: ");
-        num1 = scanner.nextDouble();
+        num1 = nani.nextDouble();
 
         System.out.print("Enter operator (+, -, *, /): ");
-        operator = scanner.next().charAt(0);
+        operator = nani.next().charAt(0);
 
         System.out.print("Enter second number: ");
-        num2 = scanner.nextDouble();
+        num2 = nani.nextDouble();
 
         switch (operator) {
             case '+':
@@ -41,7 +41,7 @@ public class calculator {
                 System.out.println("Error: Invalid operator!");
         }
 
-        scanner.close();
+        nani.close();
     }
 }
 
