@@ -5,8 +5,8 @@ public class sc {
         Scanner punpun = new Scanner(System.in);
 
         System.out.println("Are you single?");
-        boolean isSingle = punpun.hasNextBoolean(); // Check if the input is a boolean value
-        punpun.nextLine(); // Consume the newline character after boolean input
+        boolean isSingle = punpun.hasNextBoolean();
+        punpun.nextLine();
 
         System.out.println("Who is your girlfriend?");
         String girlfriend = punpun.nextLine();
